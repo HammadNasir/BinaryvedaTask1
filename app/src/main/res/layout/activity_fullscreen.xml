@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<FrameLayout
+    android:theme="@style/ThemeOverlay.BinaryvedaTask1.FullscreenContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="212dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="140dp"
+        android:src="@drawable/ic_combinedshape"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ic_group301copy"
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:layout_marginTop="115dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_group301copy"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_marginTop="477dp"
+        android:text="@string/lipsum_1"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/barlow_extralight"
+        android:textColor="@color/black"
+        android:lineHeight="24dp"
+        android:letterSpacing="-0.06"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="577dp"
+                android:translationZ="90dp"
+                android:src="@drawable/ic_group3copy"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="563dp"
+                android:layout_marginLeft="54dp"
+                android:background="@drawable/rounded_corners"
+                android:fontFamily="@font/barlowcondensed_extralight"
+                android:letterSpacing="-0.06"
+                android:gravity="center_horizontal"
+                android:text="          register"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="32sp"/>
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="561dp"
+            android:layout_marginLeft="4.5dp"
+            android:fontFamily="@font/barlowcondensed_extralight"
+            android:gravity="center_horizontal"
+            android:letterSpacing="-0.06"
+            android:text="@string/register_full_sentence"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginLeft="103dp"
+        android:src="@drawable/ic_group3copy3"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="639dp"
+        android:fontFamily="@font/barlowcondensed_extralight"
+        android:letterSpacing="-0.06"
+        android:text="@string/application_trk"
+        android:textAllCaps="false"
+        android:textColor="@color/cornflowerBlue"
+        android:textSize="24sp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="89.8dp"
+        android:layout_height="93.6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="735.5dp"
+        android:src="@drawable/ic_group11copy"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="17dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="752.4dp"
+        android:src="@drawable/ic_rectanglecopy6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.2dp"
+        android:layout_marginTop="858.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="945dp"
+        android:text="@string/rv_text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="1134dp"
+        android:src="@drawable/ic_group2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.2dp"
+        android:layout_marginTop="1244.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="1334dp"
+        android:text="@string/rv_text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="76.8dp"
+        android:layout_height="79.3dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="1522.6dp"
+        android:src="@drawable/ic_group4"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36.2dp"
+        android:layout_marginTop="1613.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="1710dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="75dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="1952dp"
+        android:src="@drawable/ic_group14copy2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36.2dp"
+        android:layout_marginTop="2045.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="2142dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="83dp"
+        android:layout_height="79.1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="2405.6dp"
+        android:src="@drawable/ic_group7"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39.2dp"
+        android:layout_marginTop="2501.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="2589dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="74dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="2840dp"
+        android:src="@drawable/ic_group10"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.2dp"
+        android:layout_marginTop="2922.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="3010dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="36dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="3321dp"
+        android:src="@drawable/ic_group14"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.2dp"
+        android:layout_marginTop="3405.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="3497dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="42.7dp"
+        android:layout_height="78.2dp"
+        android:layout_marginLeft="51.3dp"
+        android:layout_marginTop="3753.8dp"
+        android:src="@drawable/ic_group15"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39.2dp"
+        android:layout_marginTop="3842.8dp"
+        android:text="@string/rv_title"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/barlowcondensed_light"
+        android:lineHeight="32dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="3934dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/barlow_extralight"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4232dp"
+        android:src="@drawable/facebook"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4232dp"
+        android:src="@drawable/instagram"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="4286dp"
+        android:background="@color/lineColor" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="254.7dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4311dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_combinedshape_2"/>
+
+    <LinearLayout
+        android:layout_width="89dp"
+        android:layout_height="156dp"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:layout_marginTop="4357dp"
+        android:layout_marginLeft="47dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Team."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Reach Us."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="89dp"
+        android:layout_height="156dp"
+        android:orientation="vertical"
+        android:layout_marginTop="4357dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="61dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Affiliations."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Disclaimers."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Privacy Policy."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/barlowcondensed_medium"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="23.9dp"
+        android:layout_height="23.6dp"
+        android:layout_marginRight="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4511.6dp"
+        android:layout_marginBottom="49dp"
+        android:src="@drawable/ic_invalidname_1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4511dp"
+        android:text="Content Copyright reserved."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:lineHeight="24dp"
+        android:letterSpacing="0"
+        android:fontFamily="@font/barlowcondensed_light"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="4495dp"
+        android:background="@color/lineColor" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.BinaryvedaTask1.ButtonBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button android:id="@+id/dummy_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_button" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
+</ScrollView>

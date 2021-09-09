@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Binaryveda Task 1</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lipsum_1">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit</string>
+    <string name="register_txt">register</string>
+    <string name="register_full_sentence">me as a collector</string>
+    <string name="application_trk">track my application</string>
+    <string name="rv_title">lorem ipsum\nis used</string>
+    <string name="rv_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+</resources>
